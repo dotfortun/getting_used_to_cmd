@@ -3,7 +3,7 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - command: open ./readme.md
+  - command: gp open readme.md
 vscode:
   extensions:
     - ms-python.python
