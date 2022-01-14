@@ -3,8 +3,7 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: echo "pip install -r requirements.txt"
-    command: echo "python app.py"
+  - init: open readme.md
 vscode:
   extensions:
     - ms-python.python
