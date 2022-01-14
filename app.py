@@ -3,7 +3,6 @@ import os.path
 from flask import Flask, render_template, abort
 
 app = Flask(__name__, static_url_path="/static", static_folder="static")
-app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 
 @app.route('/')
