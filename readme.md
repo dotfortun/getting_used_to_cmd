@@ -21,7 +21,7 @@ To break this down, ```command``` is the name of the program you are running.
 
 Everything after the main command is either a subcommand or an argument.  Subcommands are, for all intents and purposes, just arguments without dashes.
 
-```-args``` is actually 4 arguments, ```-a```, ```-r```, ```-g```, and ```-s``` but they are grouped behind one dash.  Most but not arguments have both a short and a long version.
+```-args``` is actually 4 arguments, ```-a```, ```-r```, ```-g```, and ```-s``` but they are grouped behind one dash.  Most but not all arguments have both a short and a long version.
 
 An argument tells the computer more information about what you want to do.  For example, try ```ls``` and then ```ls -alh```, and see the difference for yourself.
 
